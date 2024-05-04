@@ -8,7 +8,7 @@ jobs:
   build:
     name: Auto-approve
     runs-on: ubuntu-latest
-    if: github.event.pull_request.user.login == '<your-user-name>'
+    if: github.event.pull_request.user.login == 'ShyDuck802'
     steps:
       - name: Approve Pull Request
         uses: actions/github-script@v4
